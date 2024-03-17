@@ -4,5 +4,5 @@
 - Req Go v18+
 
 ```bash
-go get github.com/uninus-opensource/go-architect-common
+go get github.com/uninus-opensource/uninus-go-architect-common
 ```
