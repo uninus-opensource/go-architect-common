@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/uninus-opensource/go-architect-common/uuid"
+	"github.com/uninus-opensource/uninus-go-architect-common/uuid"
 )
 
 func AddToRedisMapIsExist(rdsDatamap map[string]interface{}, value interface{}, redisFieldConst []string) map[string]interface{} {
