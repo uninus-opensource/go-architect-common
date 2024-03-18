@@ -53,7 +53,7 @@ func ServiceRegistry(nodes []string, serviceName, address string, logger log.Log
 		if err != nil {
 			return nil, err
 		}
-		// example: use /service/example.bluebird.id/127.0.0.1:80 as the unique key
+		// example: use /service/example.uninus.id/127.0.0.1:80 as the unique key
 		path := flags.SERVICE_PATH + serviceName + "/" + address
 		service := etcdv3.Service{Key: path, Value: address}
 		return etcdv3.NewRegistrar(client, service, logger), nil
