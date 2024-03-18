@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/go-redis/redis"
-	uer "github.com/uninus-opensource/go-architect-common/errors"
+	uer "github.com/uninus-opensource/uninus-go-architect-common/errors"
 )
 
 const (
